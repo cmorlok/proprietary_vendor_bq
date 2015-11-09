@@ -156,7 +156,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/bq/piccolo/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/bq/piccolo/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/bq/piccolo/proprietary/lib/hw/gps.msm8916.so:system/lib/hw/gps.msm8916.so \
     vendor/bq/piccolo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/bq/piccolo/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
