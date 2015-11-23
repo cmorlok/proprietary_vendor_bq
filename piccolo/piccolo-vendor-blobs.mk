@@ -159,6 +159,10 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
+# FM
+PRODUCT_COPY_FILES += \
+    vendor/bq/piccolo/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
+
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/location-mq:system/bin/location-mq \
