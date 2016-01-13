@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/bq/piccolo/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 
-# Camera (3.2.2)
+# Camera (3.2.6)
 PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9761b_f13n05e_camcorder.so:system/vendor/lib/libactuator_dw9761b_f13n05e_camcorder.so \
