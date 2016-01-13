@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/bq/piccolo/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 
-# Camera (3.2.2)
+# Camera (3.2.6)
 PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/bq/piccolo/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
