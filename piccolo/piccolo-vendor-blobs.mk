@@ -119,7 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/bq/piccolo/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so
 
-# Camera (https://github.com/TheMuppets/proprietary_vendor_smartfren/commit/d13021538c8e7cbdeb1d26aeabc3cfe841059532)
+# Camera (https://github.com/TheMuppets/proprietary_vendor_wileyfox/tree/51d5e902697ec19cb2517186d972939526a1ad51/kipper)
 PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
