@@ -95,6 +95,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f20_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_olq5f20_snapshot.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f20_video_hd.so:system/vendor/lib/libchromatix_s5k5e2_olq5f20_video_hd.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f20_video.so:system/vendor/lib/libchromatix_s5k5e2_olq5f20_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -106,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
@@ -124,15 +127,9 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so
-
-# Camera (https://github.com/TheMuppets/proprietary_vendor_smartfren/commit/d13021538c8e7cbdeb1d26aeabc3cfe841059532)
-PRODUCT_COPY_FILES += \
-    vendor/bq/piccolo/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
 
 # Camera firmware (3.2.2)
