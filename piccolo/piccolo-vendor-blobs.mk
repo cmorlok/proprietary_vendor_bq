@@ -166,8 +166,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/bq/piccolo/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/bq/piccolo/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/bq/piccolo/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/bq/piccolo/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
