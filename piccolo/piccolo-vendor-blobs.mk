@@ -164,6 +164,7 @@ PRODUCT_COPY_FILES += \
 
 # GPS (https://github.com/TheMuppets/proprietary_vendor_smartfren/commit/d13021538c8e7cbdeb1d26aeabc3cfe841059532)
 PRODUCT_COPY_FILES += \
+    vendor/bq/piccolo/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/bq/piccolo/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/bq/piccolo/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/bq/piccolo/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
