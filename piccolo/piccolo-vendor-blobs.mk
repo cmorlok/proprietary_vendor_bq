@@ -165,6 +165,7 @@ PRODUCT_COPY_FILES += \
 # GPS (3.2.2)
 PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/location-mq:system/bin/location-mq \
+    vendor/bq/piccolo/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/bq/piccolo/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/bq/piccolo/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
